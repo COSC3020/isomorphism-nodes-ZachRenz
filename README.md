@@ -29,7 +29,9 @@ $(x_3,x_4) \in E_{1,3}$ iff $(f(x_3),f(x_4)) \in E_{2,3}$?
 
 This breaks our definition because $E_{2,3}$ doesn't exist and the other edges are already mapped, and $f(x_4) =$ undefined, there is no mapping in $f$ for our last node. 
 
-So there doesn't exist a bijection function for these graphs because we can't map every node to another node. 
+So there doesn't exist a bijection function for these graphs because we can't map every node to another node. Furthermore:
+
+If we extend this to the general case, having a $G_1$ with $n$ nodes (n being any real number) and a $G_2$ with $n-1$ nodes, $G_1$ is surjective with $G_2$ but $G_1$ is not injective with $G_2$ so they are not bijective. If we have two graphs with different nodes we will always have at least one free node that breaks one requirement for bijection. 
 
 $\therefore$ two graphs that do not have the same number of nodes cannot be isomorphic, because there doesn't exist a bijection function that satisfies the definition. 
 
